@@ -1,0 +1,82 @@
+.navbar-header {
+	padding-top: 25px;
+}
+.navbar-header h1 {
+font-family: 'Garamond' serif;
+color: #557c3e;
+font-size: 1.5em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+margin-bottom: 0;
+line-height: .75;
+}
+.navbar-header div {
+	float: left;
+}
+/* END HEADER */
+
+/* HOMEPAGE */
+#page-title {
+	text-align:center;
+	padding-bottom: 10px;
+}
+
+#beef-tile, #chicken-tile, #sushi-tile {
+	
+	margin-bottom: 15px;
+    position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+}
+
+#beef-tile:hover, #chicken-tile:hover, #sushi-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#beef-tile h3, #chicken-tile h3, #sushi-tile h3{
+	color: #557c3e;
+	text-align: center;
+	margin-top: 0;
+}
+
+#beef-tile p, #chicken-tile p, #sushi-tile p {
+	text-align: left;
+	font-size: 1em;
+		
+}
+
+.home {
+
+}
+
+/* EXTRA SMALL DEVICES ONLY */
+
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+.navbar-brand h1 { /*Restaurant name*/
+	padding-top: 10px;
+	font-size: 5vw;
+ 	}
+.navbar-brand p {/*Kosher cert*/ 
+	font-size: .6em;
+	margin-top: 12px;
+	}
+.navbar-brand p img {/*star-k*/
+	height: 20px;
+	}
+#collapsable-nav a {/*collapsed nav menu glyph*/
+	font-size: 1.2em;
+	}
+#collapsable-nav a span {
+	font-size: 1em;
+	margin-right: 5px;
+	}
+#nav-list a {
+	text-align: center;
+}
+}
